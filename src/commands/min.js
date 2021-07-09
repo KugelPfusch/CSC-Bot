@@ -35,7 +35,7 @@ exports.run = (client, message, args, callback) => {
             message.channel.send("https://www.youtube.com/watch?v=U1ei5rwO7ZI&t=116s");
             break;
         default:
-            message.channel.send("Moralisch vertretbares Alter: " + (Number(args[0]) / 2) + 7);
+            message.channel.send("Moralisch vertretbares Alter: " + ((Number(args[0]) / 2) + 7));
             break;
     }
 
